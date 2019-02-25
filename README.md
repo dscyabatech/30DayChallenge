@@ -1,2 +1,1 @@
-# 30DayChallenge
-Complete the Challenge and win a Prizes (DSC shirt and other prizes)
+<h3 align="center"> <img src="DSC_badge_Color.png" /> </h3>
