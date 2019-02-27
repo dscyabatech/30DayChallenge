@@ -19,7 +19,7 @@
 
 3. Create a _Folder in your Your full Name_ in the repository.
 
-4. Add an _aboutme.md_ file in your folder, write your _Name, Email Address and write a little about yourself._
+4. Add an _aboutme.md_ file in your folder, write your _Name, Email Address and write a little about yourself. (see example folder)_
 
 5. When done Create a folder that will contain your code for either of the project below (_choose one or more, the more the task the more the points_):
    
