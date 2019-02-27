@@ -4,9 +4,6 @@
 :confetti_ball: :tada: 30 Days Code Challenge :tada: :confetti_ball:
 </h2>
 
-<hr>
-
-
 
 ### Complete this following task below to get win a Free DSC Swag, complete bonus tasks and get an extra sticker :wink:
 
