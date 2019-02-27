@@ -5,16 +5,16 @@
 </h3>
 
 
-##Complete this following task below to get win a Free DSC Swag, complete bonus tasks and get an extra sticker
+## Complete this following task below to get win a Free DSC Swag, complete bonus tasks and get an extra sticker
 
 
-###Tasks :octocat:
+### Tasks :octocat:
 
-> _Before you start make sure you have git installed in your laptop, if you don't have git installed, [click here]() to get it_
+> _Before you start make sure you have git installed in your laptop, if you don't have git installed, [click here](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) to get it_
 
-1. _Fork_ this repository to your account (learn how to fork repositories [here]()).
+1. _Fork_ this repository to your account (learn how to fork repositories [here](https://help.github.com/en/articles/fork-a-repo)).
 
-2. _Clone_ your forked repo to your laptop (learn how to clone [here]()).
+2. _Clone_ your forked repo to your laptop (learn how to clone [here](https://help.github.com/en/articles/cloning-a-repository)).
 
 3. Create a _Folder in your Your full Name_ in the repository.
 
@@ -26,7 +26,7 @@
    * Create a Stylesheet using css grid on for _Web_ (_2 points_)
    * Create a Portfolio _website_ (_3 points bonus_ )
 
-6. Once completed Add your Full Name to the [complete.md]() file, **Push** (_[how to push]()_) your code and create a **Pull request** (_[How to pull request]()_).
+6. Once completed Add your Full Name to the [complete.md](completed.md) file, **Push** (_[how to push](https://help.github.com/en/articles/pushing-to-a-remote)_) your code and create a **Pull request** (_[How to pull request](https://help.github.com/en/articles/creating-a-pull-request-from-a-fork)_).
 
 7. :rocket: Tweet about your completed tasks using the hash tag **#30DaysChallenge #DSCYabatech @DSCYabatech #DSCSSA**
 
