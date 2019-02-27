@@ -5,10 +5,13 @@
 </h3>
 
 
-## Complete this following task below to get win a Free DSC Swag, complete bonus tasks and get an extra sticker
 
 
-### Tasks :octocat:
+### Complete this following task below to get win a Free DSC Swag, complete bonus tasks and get an extra sticker :wink:
+
+
+
+#### Tasks :octocat:
 
 > _Before you start make sure you have git installed in your laptop, if you don't have git installed, [click here](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) to get it_
 
