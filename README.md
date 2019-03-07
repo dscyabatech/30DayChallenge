@@ -31,5 +31,5 @@
 
 7. :rocket: Tweet about your completed tasks using the hash tag **#30DaysChallenge #DSCYabatech @DSCYabatech #DSCSSA**
 
-> Once Complete we would send you a mail congratulating you on your completion as you automaically qualify to pick up your prize after the 30Days Challenge has ended.
+> Once Complete we would send you a mail congratulating you on your completion as you automaically qualify to pick up your prize after the 30Days Challenge has ended(7th of April 2019).
 >  Lets get the party started :sparkle: :sparkle: :rocket: :rocket: :octocat:
