@@ -1,0 +1,170 @@
+body {
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Libre Baskerville', serif;
+}
+
+.jumbotron-fluid {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/hero.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 0;
+  height: 658px;
+}
+
+.container-fluid {
+  padding: 7% 15%;
+}
+
+#title .container-fluid {
+  padding: 0;
+}
+
+.navbar {
+  margin-bottom: 16%;
+}
+
+.navbar-brand {
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 15px;
+}
+
+.nav-item:hover {
+  border-bottom: 3px #007BFF solid;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: white;
+}
+
+.display-4 {
+  font-weight: bolder;
+}
+
+.cta-button {
+  margin: 5% 0;
+}
+
+.colored-section {
+  color: white;
+  background-color: #3b3b3b;
+}
+
+.white-section {
+  color: #3b3b3b;
+}
+
+.profile-img {
+  width: 20%;
+  border-radius: 100%;
+  float: left;
+  margin-right: 30px;
+}
+
+.about-text {
+  width: 80%;
+  margin-left: 30%;
+}
+
+.skills {
+  clear: both;
+}
+
+.skill-title {
+  font-size: 1.2rem;
+}
+
+.section-title {
+  font-size: 2.8rem;
+}
+
+.subtitle {
+  margin-bottom: 7%;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+#about .subtitle {
+  margin-bottom: 2%;
+}
+
+.card {
+  margin-top: 15%;
+}
+
+.icon {
+  color: #FF4C68;
+  margin-bottom: 2%;
+}
+
+.port-img-container {
+  height: 265px;
+  width: 265px;
+}
+
+.row {
+  margin: 5%;
+}
+
+.testimonial-text {
+  font-size: 1.4rem;
+}
+
+.testimonial-image {
+  width: 15%;
+  border-radius: 100%;
+  margin-right: 2%;
+}
+
+.contact-container {
+  width: 50%;
+  margin: auto;
+}
+
+.contact-info {
+  border: 1px #007BFF solid;
+  width: 50%;
+  margin: 0 auto 2%;
+  padding-top: 2%;
+}
+
+.footer-icon {
+  padding: 0 2% 5%;
+}
+
+.skill-icon {
+  margin-bottom: 7%;
+  color: #007BFF;
+}
+
+@media (max-width: 767px) {
+  .navbar {
+    margin-bottom: 18%;
+  }
+
+  .profile-img {
+    float: none;
+    margin: auto auto 5%;
+    width: 40%;
+  }
+
+  .about-text {
+    margin: auto;
+    width: auto;
+  }
+
+  .contact-container, .contact-info {
+    width: 95%;
+  }
+
+  a.port-image {
+    margin: 5%;
+  }
+}
+}
