@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" />
+  <link rel="stylesheet" href="stylesheets/css/main.css" />
+  <title>Document</title>
+</head>
+
+<body>
+  <nav id="navbar">
+    <ul>
+      <li><a href="#welcome-section">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+  <main>
+    <section id="welcome-section">
+      <div class="welcome-contents">
+        <h1>Hey there!</h1>
+        <div>
+          I'm Confidence, a front-end web developer and UX/UI designer, with
+          practical experience in project management, branding strategy, and
+          creative direction; devoted to functional programming and
+          information architecture. I design, build, operate & sometimes
+          rescue full-stack Web applications.
+        </div>
+      </div>
+    </section>
+    <section id="projects">
+      <div class="projects-title">Projects</div>
+      <div class="porjects-container">
+        <div class="project-tile">
+          <div class="project-tile-image">
+            <img src="image/1.png" alt="The Great RGB Color Guessing Game" />
+          </div>
+          <div class="project-tile-link">
+            <a href="https://codepen.io/ConfidenceOkoghenun/full/aGZKao">Color Guessing Game</a>
+          </div>
+        </div>
+        <div class="project-tile">
+          <div class="project-tile-image">
+            <img src="image/2.png" alt="To Do List" />
+          </div>
+          <div class="project-tile-link">
+            <a href="https://codepen.io/ConfidenceOkoghenun/full/rvYWxQ">To Do List</a>
+          </div>
+        </div>
+        <div class="project-tile">
+          <div class="project-tile-image">
+            <img src="image/3.png" alt="Quote Engine" />
+          </div>
+          <div class="project-tile-link">
+            <a href="https://codepen.io/ConfidenceOkoghenun/full/yjvXjr">Quote Engine</a>
+          </div>
+        </div>
+        <div class="project-tile hide-on-moblie">
+          <div class="project-tile-image">
+            <img src="image/4.png" alt="Address Book" />
+          </div>
+          <div class="project-tile-link">
+            <a href="https://codepen.io/ConfidenceOkoghenun/full/MVzgGE">Address Book</a>
+          </div>
+        </div>
+        <div class="project-tile">
+          <div class="project-tile-image">
+            <img src="image/5.png" alt="Tribute Page of Charles Taze Russell" />
+          </div>
+          <div class="project-tile-link">
+            <a href="https://codepen.io/ConfidenceOkoghenun/full/jZRXpb">Tribute Page</a>
+          </div>
+        </div>
+        <div class="project-tile">
+          <div class="project-tile-image">
+            <img src="image/6.png" alt="Purrfect Match" />
+          </div>
+          <div class="project-tile-link">
+            <a href="https://codepen.io/ConfidenceOkoghenun/full/LdBEzX">Purrfect Match</a>
+          </div>
+        </div>
+        <div class="project-tile">
+          <div class="project-tile-image">
+            <img src="image/7.png" alt="GitFinder" />
+          </div>
+          <div class="project-tile-link">
+            <a href="https://codepen.io/ConfidenceOkoghenun/full/jpWgXV">GitFinder</a>
+          </div>
+        </div>
+        <div class="project-tile">
+          <div class="project-tile-image">
+            <img src="image/8.png" alt="Loan Calculator" />
+          </div>
+          <div class="project-tile-link">
+            <a href="https://codepen.io/ConfidenceOkoghenun/full/MXQzaY">Loan Calculator</a>
+          </div>
+        </div>
+        <div class="project-tile">
+          <div class="project-tile-image">
+            <img src="image/9.png" alt="Cat Photo App" />
+          </div>
+          <div class="project-tile-link">
+            <a href="https://codepen.io/ConfidenceOkoghenun/full/BGjrYb">Cat Photo App</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="contact">
+      <div class="contact-header">Where to find me</div>
+      <div class="contact-me">
+        <div class="contact-me-link">
+          <a href="https://github.com/Confidence-Okoghenun" target="_blank" id="profile-link"><img
+              src="image/github.svg" alt="Github" /></a>
+        </div>
+        <div class="contact-me-link">
+          <a href="https://twitter.com/COkoghenun" target="_blank"><img src="image/twitter.svg" alt="Twitter" /></a>
+        </div>
+        <div class="contact-me-link">
+          <a href="https://www.linkedin.com/in/confidenceokoghenun" target="_blank"><img src="image/linkedin.svg"
+              alt="LinkedIn" /></a>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <div class="text">Copyright © 2018, All Rights Reserved</div>
+  </footer>
+  <script>
+    document.querySelectorAll('ul li a').forEach((link) => {
+      function scrollTo(e) {
+        e.preventDefault;
+        const id = e.target.getAttribute('href');
+        document.querySelector(`${id}`).scrollIntoView();
+      }
+      link.addEventListener('click', scrollTo);
+    })
+  </script>
+</body>
+
+</html>
