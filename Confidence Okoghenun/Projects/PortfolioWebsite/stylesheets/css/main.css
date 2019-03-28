@@ -74,11 +74,14 @@ body main #projects .porjects-container {
   }
 }
 body main #projects .porjects-container .project-tile {
-  border: 2px solid white;
   margin: 20px;
+  border-radius: 10px;
+  border: 2px solid white;
 }
 body main #projects .porjects-container .project-tile-image img {
   width: 250px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
 }
 body main #projects .porjects-container .project-tile-link {
   text-align: center;
