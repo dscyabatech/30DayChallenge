@@ -1,0 +1,118 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: "Lato", sans-serif;
+}
+body #navbar {
+  top: 0;
+  width: 100%;
+  position: fixed;
+}
+body #navbar ul {
+  margin: 0;
+  color: #fff;
+  display: flex;
+  background: #009688;
+  justify-content: flex-end;
+}
+body #navbar ul li {
+  margin: 20px 20px;
+  list-style-type: none;
+}
+body #navbar ul li a {
+  all: unset;
+  cursor: pointer;
+}
+body main #welcome-section {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.12), rgba(0, 0, 0, 0.37)), url("../../image/cover1.jpg");
+}
+body main #welcome-section .welcome-contents {
+  color: white;
+  margin: 0 10%;
+  font-size: 1.3em;
+  min-height: 70vh;
+  padding-top: 30vh;
+}
+@media (max-width: 600px) {
+  body main #welcome-section .welcome-contents {
+    font-size: 1.1em;
+    padding-top: 10vh;
+    min-height: 90vh;
+  }
+}
+body main #welcome-section .welcome-contents h1 {
+  font-size: 3em;
+}
+body main #welcome-section .welcome-contents div {
+  font-size: 1.5em;
+}
+body main #projects {
+  background: #009688;
+}
+body main #projects .projects-title {
+  color: white;
+  font-size: 2em;
+  padding: 20px 0;
+  font-weight: bold;
+  text-align: center;
+  letter-spacing: 2px;
+}
+body main #projects .porjects-container {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 0 30px;
+  justify-content: center;
+}
+@media (max-width: 880px) {
+  body main #projects .porjects-container .hide-on-moblie {
+    display: none;
+  }
+}
+body main #projects .porjects-container .project-tile {
+  margin: 20px;
+  border-radius: 10px;
+  border: 2px solid white;
+}
+body main #projects .porjects-container .project-tile-image img {
+  width: 250px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+body main #projects .porjects-container .project-tile-link {
+  text-align: center;
+  margin-bottom: 10px;
+}
+body main #projects .porjects-container .project-tile-link a {
+  color: white;
+}
+body main #contact {
+  margin: 30px 0;
+  min-height: 30vh;
+}
+body main #contact .contact-header {
+  font-size: 2em;
+  padding: 20px 0;
+  font-weight: bold;
+  text-align: center;
+  letter-spacing: 2px;
+}
+body main #contact .contact-me {
+  display: flex;
+  max-width: 300px;
+  margin: 40px auto 0;
+  justify-content: space-evenly;
+}
+body main #contact .contact-me-link a img {
+  width: 50px;
+}
+body footer {
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+  background: #048e81;
+}
