@@ -1,0 +1,148 @@
+html{
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+    border:0;
+    font-family:'Ubuntu', sans-serif;
+    scroll-behavior:smooth;
+}
+body{
+    background:linear-gradient(45deg, rgba(0, 255, 234, .7),rgba(140, 0, 255, 0.4));
+    background-repeat:no-repeat;
+}
+@keyframes slide-up {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+.nav{
+    display:flex;
+    position:sticky;
+    top:0;
+    box-shadow:0 1px 1px 1px rgba(0,0,0,0.2);
+    flex-direction:row;
+    justify-content:space-between;
+    align-items:center;
+    color:white;
+    background-color:black;
+    font-size:1rem;
+    font-weight:bolder;
+    padding:1rem;
+}
+.todo__container{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    padding-bottom:9%;
+    background-color:rgba(255,255,255,.5);
+}
+#todo__task--container{
+    background-color:rgba(255,255,255,.3);
+    list-style:none;
+    justify-content:center;
+    align-self:center;
+    width:60%;
+    padding:1rem;
+    margin:1rem 0;
+    border-radius:.5rem;
+}
+.todo__task{
+    opacity:1;
+    background-color:#fff;
+    margin:.5rem;
+    text-align:center;
+    padding:1rem;
+    border-radius:0 .5rem .5rem 0;
+    border-left:5px solid purple;
+    box-shadow:0px 3px 2px 1px rgba(0,0,0,0.1);
+    transition:all .2s ease-in-out;
+    animation:slide-up .3s ease-in-out;
+    cursor:pointer;
+}
+.todo__task:hover{
+    transform:scale(1.02);
+    transition:all .2s ease-in-out;
+}
+.todo__task--complete{
+    background-color:rgba(60, 247, 60, 0.5);
+    text-decoration:line-through;
+    transition:all .2s ease-in-out;
+}
+.todo__add{
+    position:sticky;
+    top:50px;
+    z-index:999;
+    display:flex;
+    justify-content:center;
+    margin-top:1rem;
+}
+.todo__add--input{
+    padding:.7rem;
+    outline:none;
+    border-radius:2rem;
+    box-shadow:1px 1px 5px 1px rgba(0,0,0,0.2);
+    border:none;
+    width:40%;
+    transition:all .5s ease-in-out;
+}
+.todo__add--input:focus{
+    width:50%;
+    transition:all .5s ease-in-out;
+}
+.todo__add--input-error{
+    box-shadow:0px 0px 5px 2px rgba(255, 0, 0, 0.5);
+}
+.todo__add--input-error:not(:focus){
+    box-shadow:1px 1px 5px 1px rgba(0,0,0,0.2);
+}
+#todo__add--button{
+    color:white;
+    align-self:center;
+    margin-left:10px;
+    background-color:purple;
+    padding:.8rem 1.1rem;
+    border-radius:50%;
+    box-shadow:0px 3px 2px 1px rgba(0,0,0,0.1);
+    cursor:pointer;
+}
+footer{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+    background-color:black;
+    color:#555;
+    padding:.5rem;
+    font-size:.7rem;
+    position:sticky;
+    bottom:0;
+}
+footer a{
+    text-decoration:none;
+    color:#555;
+    transition:all .1s ease-in-out;
+    padding:0;
+    margin:0;
+    justify-self:center;
+}
+.flaticon-013-twitter-1:hover{
+    color:#3897bd;
+    transition:all .1s ease-in-out;
+}
+.flaticon-039-github:hover{
+    color:white;
+    transition:all .1s ease;
+}
+@media only screen and (max-width:425px){
+    .todo__task--container{
+        width:79vw;
+    }
+    html{
+        font-size:.7rem;
+    }
+}
